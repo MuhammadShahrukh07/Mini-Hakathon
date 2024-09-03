@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-background{
+    background-color: white;
+}
+.btn-background{
+    background-color: black;
+}
+
+.btn-background1{
+    background-color: #B9FF66;
+}
+.btn-background2{
+    background-color:#abdbe3;
+}
+.services-heading {
+    background-color: #B9FF66;
+    color: #000;
+    font-size: 1.8rem;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+.accordion-item {
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.accordion-button {
+    background-color:#B9FF66; 
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #B9FF66;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.accordion-button::after {
+    content: '\002B'; 
+    font-size: 1.5rem;
+}
+
+.accordion-button.collapsed::after {
+    font-size: 1.5rem;
+}
+
+.accordion-body {
+    background-color: #B9FF66; 
+    color: #000;
+    border-top: 2px solid green; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 15px;
+}
+
+.step-number {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.radio-btn{
+    display: flex;
+    gap: 30px;
+}
+.contact-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 15px;
+}
+.contact-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.contact-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+.contact-header {
+    background-color: #B9FF66;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.footer-background {
+    background-color: #201c24;
+}
+
+.font-size {
+    font-size: 20px;
+}
+
+.social-icons a {
+    color: white;
+}
+
+.footer-btn {
+    background-color: #B9FF66;
+}
+
+.font-color {
+    color: white;
+}
+
+.footer-links a {
+    color: white; 
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.subscribe-form input {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.subscribe-form button {
+    background-color: #B9FF66;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    border-radius: 5px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+.footer-bottom a {
+    color: white;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
